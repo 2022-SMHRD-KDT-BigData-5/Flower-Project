@@ -21,7 +21,7 @@ public class DeleteCon extends HttpServlet {
 		int cnt = dao.deleteMember(email);
 		
 		if(cnt > 0) {
-			System.out.println("회원삭제 성공");
+			System.out.println("회원삭제 성공  ");
 		}else {
 			System.out.println("회원삭제 실패");
 		}
